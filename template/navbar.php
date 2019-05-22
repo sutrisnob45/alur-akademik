@@ -32,3 +32,7 @@
       </div>
     </nav>
   </header>
+  <div class="wrapper">
+    <div class="content-wrapper">
+      <div class="container">
+        <section class="content">
