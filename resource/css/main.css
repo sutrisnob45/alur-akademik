@@ -1,0 +1,110 @@
+.color p{
+  color: blue;
+}
+.gedung{
+  width: 150px;
+  height: 460px;
+  border: 2px solid black;
+  position: absolute;
+
+}
+.gd1{
+  width: 300px;
+  height: 150px;
+  top: 40px;
+  left: 830px;
+}
+/*warna gedung*/
+/*.gd1:hover{
+  background-color: salmon;
+}*/
+/*warna di row colom*/
+.ruang:hover{
+  background-color: salmon;
+}
+/*warna aktif*/
+.ruang.aktif{
+  background-color: salmon;
+}
+
+/* posisis ke atas gedung*/
+.gd1{
+  left: 580px;
+  top: 580px;
+}
+.gd2,.gd3{
+  top: 110px;
+}
+/*posisi kesamping */
+.gd2{
+  left: 420px;
+}
+.gd3{
+  left: 790px;
+}
+.gd4{
+  left: 420px;
+}
+.gd5{
+  left: 790px;
+}
+/* warna garis table*/
+.ruang{
+  height: 100px;
+  border-bottom: 2px solid black;
+  overflow: hidden;
+}
+     /*text ke bawah*/
+     /*.perpus:last-child{
+       border-bottom: none;
+      }*/
+      .ruang:last-child{
+        border-bottom: none;
+      }
+      /*ukuran gedung*/
+      .gd1{
+        width: 200px;
+        height: 50px;
+      }
+      .gd2 .ruang{
+        height: 65px;
+      }
+      .gd3 .ruang{
+        height: 65px;
+      }
+      .gd4{
+        height: 40px;
+      }
+      .gd5{
+        height: 40px;
+      }
+      /*text centar di ruang p*/
+      .ruang p{
+        line-height: 75px;
+        text-align: center;
+      }
+      p{
+        line-height: 50px;
+        text-align: center;
+      }
+      .gd4 {
+        line-height: 40px;
+        text-align: center;
+      }
+      .gd5 {
+        line-height: 40px;
+        text-align: center;
+      }
+
+    /*.text h4{
+      text-align: center;
+      }*/
+      .tabeff{
+       text-align: center;
+       width: 235px; 
+       height:310px; 
+       /*tabel akan rata kiri*/
+       float: left;
+       /*jarak dari kiri*/
+       margin-left: 5px;
+     }
