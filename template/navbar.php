@@ -27,6 +27,23 @@
                 <li><a href=<?= BASE_URL . '/lantai/3';?>>Gedung D dan C Lantai 3</a></li>
               </ul>
             </li>
+
+            <?php
+            session_start();
+            if(isset($_SESSION['id_user'])) :?>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Master Data<span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href=<?= BASE_URL . '/master/tabel_alur';?>>Alur</a></li>
+                <li class="divider"></li>
+                <li><a href=<?= BASE_URL . '/master/tabel_tahun';?>>Tahun</a></li>
+                <li class="divider"></li>
+                <li><a href=<?= BASE_URL . '/master/tabel_pegawai';?>>Pegawai</a></li>
+                <li class="divider"></li>
+                <li><a href=<?= BASE_URL . '/master/tabel_ruang';?>>Ruang</a></li>
+              </ul>
+            </li>
+          <?php endif; ?>
           </ul>
         </div>
       </div>

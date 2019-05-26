@@ -12,8 +12,9 @@
 <!-- AdminLTE App -->
 <script src=<?= BASE_URL . "/library/adminlte/js/adminlte.min.js" ?>></script>
 <!-- data tables -->
-<!-- <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.js"></script> -->
-<!-- <script>
+<script src=<?= BASE_URL . "/library/datatables/jquery.dataTables.min.js" ?>></script>
+<script src=<?= BASE_URL . "/library/datatables/dataTables.bootstrap.min.js"?>></script>
+<script>
   $(function () {
     $('#example1').DataTable()
     $('#example2').DataTable({
@@ -25,6 +26,6 @@
       'autoWidth'   : false
     })
   })
-</script> -->
+</script>
 </body>
 </html>

@@ -20,6 +20,7 @@ error_reporting(0);
   <link rel="stylesheet" href=<?= BASE_URL . "/library/font-awesome/css/all.css" ?>>
   <!-- Ionicons -->
   <link rel="stylesheet" href=<?= BASE_URL . "/library/ionicons/ionicons.min.css" ?>>
+  <link rel="stylesheet" href=<?= BASE_URL . "/library/datatables/dataTables.bootstrap.min.css" ?>>
   <!-- Theme style -->
   <link rel="stylesheet" href=<?= BASE_URL . "/library/adminlte/css/AdminLTE.min.css" ?>>
   <link rel="stylesheet" href=<?= BASE_URL . "/library/adminlte/css/skins/_all-skins.min.css" ?>>
