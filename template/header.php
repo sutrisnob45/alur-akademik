@@ -24,6 +24,8 @@ error_reporting(0);
   <!-- Theme style -->
   <link rel="stylesheet" href=<?= BASE_URL . "/library/adminlte/css/AdminLTE.min.css" ?>>
   <link rel="stylesheet" href=<?= BASE_URL . "/library/adminlte/css/skins/_all-skins.min.css" ?>>
+  <!-- jQuery -->
+  <script src=<?= BASE_URL . "/library/jquery/jquery.js" ?>></script>
 
   <!-- Google Font -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">

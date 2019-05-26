@@ -3,8 +3,6 @@
 </div>
 </div>
 
-<!-- jQuery -->
-<script src=<?= BASE_URL . "/library/jquery/jquery.js" ?>></script>
 <!-- Bootstrap -->
 <script src=<?= BASE_URL . "/library/bootstrap/js/bootstrap.min.js" ?>></script>
 <!-- SlimScroll -->

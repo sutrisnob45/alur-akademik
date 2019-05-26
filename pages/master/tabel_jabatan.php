@@ -4,7 +4,7 @@
               <h3 class="box-title">Tabel Jabatan</h3>
             </div>
             <div class="box-header">
-              <a href=".?page=tambah_jabatan" class="btn btn-primary">Tambah</a>
+              <a href=<?= BASE_URL . "/tambah_jabatan" ?> class="btn btn-primary">Tambah</a>
             </div>
             <!-- /.box-header -->
             <div class="box-body">
